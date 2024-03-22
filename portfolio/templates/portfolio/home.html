@@ -4,21 +4,10 @@
 
 {% block content %}
 
-<style>
-  .circular_image {
-  float: left;
-  margin-left: auto;
-  margin-right: auto;
-  width: 450px;;
-  height: 500px;
-  border-radius: 30%;
-  overflow: hidden;
-  background-color: blue;
-}
-</style>
+
 <div class="row justify-content-center my-3">
   <div class="col-5">
-    <img src="{% static 'portfolio/MyPic.jpeg' %}" class="circular_image" >
+    <img class="img-fluid" src="{% static 'portfolio/MyPic.jpeg' %}"  >
   </div>
 </div>
 
