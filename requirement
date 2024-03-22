@@ -1,0 +1,16 @@
+altgraph==0.17.3
+asgiref==3.7.2
+cx-Freeze==6.15.2
+cx-Logging==3.1.0
+Django==5.0.3
+lief==0.13.2
+pefile==2023.2.7
+pillow==10.2.0
+pygame==2.4.0
+pyinstaller==5.13.0
+pyinstaller-hooks-contrib==2023.4
+PyTMX==3.32
+pywin32-ctypes==0.2.2
+sqlparse==0.4.4
+typing_extensions==4.10.0
+tzdata==2024.1
