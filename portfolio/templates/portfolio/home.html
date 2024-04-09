@@ -6,21 +6,21 @@
 
 
 <div class="row justify-content-center my-3">
-  <div class="col-5">
-    <img class="img-fluid" src="{% static 'portfolio/MyPic.jpeg' %}"  >
+  <div class="">
+    <img class="img-fluid" src="{% static 'portfolio/ProfilePic.jpeg' %}"  >
   </div>
 </div>
 
 <div id = "typing" class="row justify-content-center mb-3">
   <div class="col-md-9 text-center">
-    <h1 id="hometext" class="font-weight-bold">Hitesh Mourya </h1>
-    <h2> B-Tech student enrolled in Acropolis Instiute of Technology and Research</h2>
+    <h1 class="hometext font-weight-bold">Hitesh Mourya </h1>
+    <h2 class="homeinfo"> B-Tech student enrolled in Acropolis Instiute of Technology and Research</h2>
   </div>
 </div>
 
-<h2 class="mt-5">Portfolio</h2>
-<hr>
-<div class="row">
+<h2 class="mt-5 font-weight-bold hometext">Portfolio</h2>
+<hr noshade="">
+<div class="projectdiv row">
   {% for project in projects %}
   <div class="col-lg-4 col-md-6">
 
@@ -32,8 +32,8 @@
 
     <img src="{{ project.image.url }}" class="img-fluid mb-2">
     {% endif %}
-    <h3>{{ project.title }}</h3>
-    <p>{{ project.description }}</p>
+    <h3 class="hometext font-weight-bold">{{ project.title }}</h3>
+    <p  class="homeinfo">{{ project.description }}</p>
 
   </div>
   {% endfor %}

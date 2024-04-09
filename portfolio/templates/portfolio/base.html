@@ -17,6 +17,8 @@
   <link rel="icon" type="image/png" href="{% static "portfolio/Logo.png" %}">
 
   <title>Hitesh Mourya</title>
+
+
 </head>
 
 <body>
@@ -24,8 +26,8 @@
   <nav id="topNav" class="navbar navbar-expand-md navbar-light">
     <div class="container">
       <a class="navbar-brand" href="{% url 'home' %}">
-        <img src="{% static "portfolio/Logo.png" %}" width="30" height="30" class="d-inline-block align-top" alt="Nick's Logo">
-        <span>Hitesh Mourya</span>
+        <img src="{% static "portfolio/Logo.png" %}" width="30" height="30" class="d-inline-block align-top" alt="Hitesh's Logo">
+        <span id="Nav-text">Hitesh Mourya</span>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -45,7 +47,7 @@
             <a class="nav-link" href="https://www.instagram.com/m0urya_hitesh" target="_blank">Instagram</a>
           </li>
           <li>
-            <a role="button" href="{% url 'blog:all_blogs' %}" class="btn btn-primary">Blog</a>
+            <a role="button" href="{% url 'blog:all_blogs' %}" class="button">Blog</a>
           </li>
         </ul>
       </div>

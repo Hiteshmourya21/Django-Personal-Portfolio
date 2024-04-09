@@ -1,18 +1,81 @@
-.navbar-nav .nav-link {
-    color: rgba(0,0,0,1) !important;
-}
-
-.navbar-nav .nav-link:hover {
-    color: rgba(0,0,0,.5) !important;
-}
-
 body {
+    background-color: rgba(245, 237, 237, 0.904);
     font-family: 'Lato', sans-serif;
 }
 
+
+.navbar-nav .nav-link {
+    color: rgb(177,178, 145) !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgba(255, 223, 223, 0.5) !important;
+}
+.hometext{
+    color: rgb(29, 29, 21);
+}
+.homeinfo{
+    color: rgb(110, 110, 115);
+}
+.blogtext{
+    color: rgb(116, 80, 89);
+
+}
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 6px 12px;
+    border: 4px solid #0f43bd;
+    border-radius: 8px;
+    background: #1d7eff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#1d7eff), to(#0f43bd));
+    background: -moz-linear-gradient(top, #1d7eff, #0f43bd);
+    background: linear-gradient(to bottom, #1d7eff, #0f43bd);
+    text-shadow: #09286f 1px 1px 2px;
+    font: italic normal bold 16px tahoma;
+    color: #c4c4c4;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    border: 4px solid ##124fde;
+    background: #2397ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#2397ff), to(#1250e3));
+    background: -moz-linear-gradient(top, #2397ff, #1250e3);
+    background: linear-gradient(to bottom, #2397ff, #1250e3);
+    color: #c4c4c4;
+    text-decoration: none;
+}
+.button:active {
+    background: #0f43bd;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0f43bd), to(#0f43bd));
+    background: -moz-linear-gradient(top, #0f43bd, #0f43bd);
+    background: linear-gradient(to bottom, #0f43bd, #0f43bd);
+}
+
+
+
+#Nav-text{
+    color:rgb(177,178, 145) ;
+}
+#topNav{
+    background-color: rgb(13, 17, 23);
+}
 #blogtitle {
+    text-decoration: underline solid rgba(65, 29, 35, 0.623);
+    border-radius: 10%;
+    background-color: rgba(247, 220, 220, 0.466);
+    color: rgb(97, 73, 79);
     font-size: 6rem;
 }
+
+#bloginfo{
+    color: rgba(0, 37, 105, 0.781);
+}
+
+
+
 
 @media (min-width: 992px) {
     #hometext {
@@ -21,4 +84,13 @@ body {
     #blogdetailtitle {
         font-size: 5rem;
     }
+}
+@media (min-width: 768px){
+.col-md-6 {
+    background-color: rgb(216, 203, 206) ;
+    max-width: 50%;
+    flex: 0 0 50%;
+    padding: 20px;
+    margin-top: 1rem;
+}
 }
